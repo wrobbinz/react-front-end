@@ -1,9 +1,9 @@
-const path = require('path')
-const HtmlWebpackPlugin = require('html-webpack-plugin')
-const ExtractTextPlugin = require('extract-text-webpack-plugin')
-const UglifyJSPlugin = require('uglifyjs-webpack-plugin')
-const precss = require('precss')
-const autoprefixer = require('autoprefixer')
+import path from 'path'
+import HtmlWebpackPlugin from 'html-webpack-plugin'
+import ExtractTextPlugin from 'extract-text-webpack-plugin'
+import UglifyJSPlugin from 'uglifyjs-webpack-plugin'
+import precss from 'precss'
+import autoprefixer from 'autoprefixer'
 
 
 // Paths
@@ -14,7 +14,7 @@ const paths = {
 }
 
 // Webpack Configuration
-module.exports = {
+export default {
   entry: path.join(paths.JS, 'app.js'),
   output: {
     path: paths.DIST,
