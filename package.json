@@ -37,5 +37,9 @@
   "dependencies": {
     "react": "^16.1.0",
     "react-dom": "^16.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wrobbinz/react-front-end"
   }
 }
