@@ -1,7 +1,7 @@
 {
   "name": "react-front-end",
   "version": "1.0.0",
-  "description": "Modern front-end boilerplate: Webpack, Babel, React, SASS, ESLint",
+  "description": "Modern front-end boilerplate: Webpack, Babel, ESLint, React, SCSS",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server",
